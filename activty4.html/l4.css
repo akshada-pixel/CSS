@@ -1,0 +1,16 @@
+body{font-family:italic;
+background-color:red;
+color:green;}
+h1{color:brown;}
+a{color:aqua;
+text-decoration:none;}
+a:hover{color:blue;}
+ul>li{font-weight:bold;}
+h1+p{font-weight:bold;}
+h1+p{background-color:purple;
+padding:10px;}
+ul li:hover{color:yellow;}
+ul li:nth-child(2){background-color: pink;}
+ul li:before{content:"\1F680";}
+p::first-letter{font-size:200%;
+color:aquamarine;} 

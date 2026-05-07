@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>
+            tasty bites menu
+        </title>
+        <style>body{font-family:aerial;
+        background-color: blue;
+        padding:20px;}
+        h1{color:aquamarine}
+        h2{color:yellow;
+        margin-top:20px;}
+        p{color:green;
+        margin-bottom:10px;}
+        .menu-item{background:red;
+        border:2px solid goldenrod;
+        padding:10px 20px;
+        margin:5px 0;
+        width:200px;}
+        .compare-wrap{display:flex gap 30px; margin-top:10px;}
+         .compare-col{flex:1;}
+         .compare-col p{font-size: 12px;
+        color:blueviolet;
+        margin-bottom:5px;}
+        .special-badge{background:rebeccapurple;
+        color:brown;
+        padding:10px 20px;
+        margin:8px 0;
+        width:200px;
+        position:relative;
+        left:40px;}
+        .reserve{border:2px dashed yellowgreen;
+        padding:10px 20px;
+        width:200px;
+        margin:8px 0; color:rosybrown;
+        font-size:10px;}
+        </style>
+    </head>
+    <body>
+        <h1>
+            tasty bites menu
+        </h1>
+        <h2>
+            static positioning 
+        </h2>
+        <div class="menu-item">pasta</div>
+        <div class="menu-item">burger</div>
+        <div class="menu-item">pizza</div>
+        <h2>
+            relative positioning
+        </h2>
+        <div class="compare-wrap">
+            <div class="compare-col">
+                <p>without relative postioning</p>
+              <div class="menu-item">pasta-rs20</div>
+        <div class="menu-item">burger-rs45</div>
+        <div class="menu-item">pizza-rs50</div>
+        </div>
+        <div class="compare-col">
+            <p>with relative positioning</p>
+            <div class="menu-item">pasta-rs20</div>
+        <div class="reserve">burger-rs45</div>
+        <div class="special-badge">pizza-rs50</div>
+        </div>
+        </div>
+    </body>
+</html>
